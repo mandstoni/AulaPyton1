@@ -1,0 +1,19 @@
+a = int(input("Digite o valor de A:"))
+b = int(input("Digite o valor de B:"))
+c = int(input("Digite o valor de C:"))
+
+if a<=0 or b<=0 or c<=0:
+    print("Dados invalidos")
+
+if a>=b+c or b>=c+a or c>=a+b :
+   print("Triangulo inexistente.")
+   quit()
+
+if a==b or b==c or c==a:
+    print("é um triangulo isosceles") 
+           
+elif a==b and b==c:
+    print("é equilatero") 
+
+else:                 
+    print("escaleno")

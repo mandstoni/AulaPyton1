@@ -1,0 +1,21 @@
+import math
+
+
+a = int(input("Digite o valor de A:"))
+b = int(input("Digite o valor de B:"))
+c = int(input("Digite o valor de C:"))
+
+
+delta = b * b - 4 * a*c
+
+
+if delta >= 0:
+    x1= (-b + math.sqrt(delta)) / (2*a) 
+    x2= (-b - math.sqrt(delta))  / (2*a) 
+
+    print(x1)
+    print(x2)
+
+else:
+    print("Raiz não existente")
+

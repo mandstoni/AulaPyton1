@@ -1,0 +1,22 @@
+a = int(input("Digite o valor de A:"))
+b = int(input("Digite o valor de B:"))
+c = int(input("Digite o valor de C:"))
+
+maior = a
+
+if (b > maior):
+    maior = b
+if (c > maior):
+    maior = c
+
+print(maior)
+
+menor = a
+
+if(b < menor):
+    menor = b
+
+if(c < menor):
+    menor = c
+
+print(menor)
