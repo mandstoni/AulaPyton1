@@ -1,0 +1,13 @@
+imovel = int(input("Informe o valor do imovel: "))
+salario = int(input("Informe o seu salário: "))
+valor_parecela = int(input("Informe o valor das parcelas: "))
+anos = int(input("Informe a quantidade de anos a pagar: "))
+meses = ano * 12
+parcela = (imovel / meses)
+valor_minimo = (salario / 100 )* 30
+ 
+if parcela < valor_minimo :
+    print(parcela) 
+    print (meses)
+else: 
+    print ("Não foi aprovado")
